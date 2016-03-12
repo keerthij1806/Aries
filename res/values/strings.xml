@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aries</string>
+    <string name="action_settings">Settings</string>
+    <string-array name = "presidents_array">
+        <item >choose one</item>
+        <item>Project manager</item>
+        <item>Team leader</item>
+        <item>Team member</item>
+    </string-array>
+     <string-array name = "team_array">
+        <item >choose one</item>
+        <item>Development</item>
+        <item>Maintenance</item>
+        <item>Test</item>
+    </string-array>
+     <string-array name = "notify">
+        <item >choose one</item>
+        <item>New project added</item>
+        <item>New task added</item>
+    </string-array>
+</resources>
