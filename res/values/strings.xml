@@ -5,6 +5,8 @@
     <string name="action_settings">Settings</string>
     <string-array name = "presidents_array">
         <item >choose one</item>
+        <item>Company manager</item>
+        <item>General manager</item>
         <item>Project manager</item>
         <item>Team leader</item>
         <item>Team member</item>

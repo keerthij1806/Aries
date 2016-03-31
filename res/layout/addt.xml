@@ -43,6 +43,7 @@
         android:layout_above="@+id/editText2"
         android:layout_alignLeft="@+id/textView1"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Project name" >
          <requestFocus />
          </EditText>
@@ -54,6 +55,7 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_below="@+id/editText5"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Task" />
 
     <EditText
@@ -63,6 +65,7 @@
         android:layout_alignLeft="@+id/editText6"
         android:layout_below="@+id/editText4"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Member name" />
 
     <EditText
@@ -72,6 +75,7 @@
         android:layout_above="@+id/editText3"
         android:layout_alignLeft="@+id/editText1"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Client name" />
 
     <Button

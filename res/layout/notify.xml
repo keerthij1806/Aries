@@ -30,7 +30,7 @@
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="Name"
-        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:textColorLink="@android:color/black" >
 
         <requestFocus />

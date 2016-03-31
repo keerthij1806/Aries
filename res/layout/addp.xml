@@ -38,6 +38,7 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_below="@+id/editText2"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Client name" />
 
     <EditText
@@ -59,7 +60,10 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="14dp"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+       
         android:hint="Project name" >
+        
         <requestFocus />
         </EditText>
 
@@ -78,6 +82,7 @@
         android:layout_alignLeft="@+id/spinner1"
         android:layout_below="@+id/spinner1"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Team leader" />
 
     <Button

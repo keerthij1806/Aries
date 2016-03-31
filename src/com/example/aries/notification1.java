@@ -67,7 +67,7 @@ public class notification1 extends Activity {
 			    ed2.setError( "Please enter notification body!" );
 			else{
             NotificationManager notif=(NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
-            Notification notify=new Notification(R.drawable.icon,title,System.currentTimeMillis());
+            Notification notify=new Notification(R.drawable.ic_launcher,title,System.currentTimeMillis());
 			Toast.makeText(getApplicationContext(), 
 					str,Toast.LENGTH_LONG).show();
 			Intent var=new Intent(notification1.this,first_page.class);

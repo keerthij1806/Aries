@@ -21,6 +21,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="17dp"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Member4 name:" >
 
         
@@ -33,6 +34,7 @@
         android:layout_above="@+id/editText6"
         android:layout_alignParentLeft="true"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Member3 name:" />
 
     <EditText
@@ -42,6 +44,7 @@
         android:layout_above="@+id/editText5"
         android:layout_alignParentLeft="true"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Member2 name:" />
 
     <EditText
@@ -51,6 +54,7 @@
         android:layout_above="@+id/editText4"
         android:layout_alignParentLeft="true"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Member1 name" />
 
     <TextView
@@ -71,6 +75,7 @@
         android:layout_above="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:ems="10"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         android:hint="Team leader name:" />
 
     <TextView
