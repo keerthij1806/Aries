@@ -63,7 +63,7 @@ public class team_details extends Activity {
 		    
 		        try {
 		            DefaultHttpClient client = new DefaultHttpClient();
-		            HttpGet request = new HttpGet("http://172.16.13.166/db/selectall1.php");
+		            HttpGet request = new HttpGet("http://172.16.13.191/db/selectall1.php");
 		            HttpResponse response = client.execute(request);
 		            HttpEntity entity=response.getEntity();
 		            final_data=EntityUtils.toString(entity);

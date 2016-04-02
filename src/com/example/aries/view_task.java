@@ -63,7 +63,7 @@ public class view_task extends Activity {
 		    
 		        try {
 		            DefaultHttpClient client = new DefaultHttpClient();
-		            HttpGet request = new HttpGet("http://172.16.13.166/db/selectall.php");
+		            HttpGet request = new HttpGet("http://172.16.13.191/db/selectall.php");
 		            HttpResponse response = client.execute(request);
 		            HttpEntity entity=response.getEntity();
 		            final_data=EntityUtils.toString(entity);

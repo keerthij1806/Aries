@@ -105,7 +105,7 @@ public class create_page extends Activity {
 						pass_value = URLEncoder.encode(pass_value, "UTF-8");
 						
 						
-						String url = "http://172.16.13.166/db/create_acc.php?firstname="
+						String url = "http://172.16.13.191/db/create_acc.php?firstname="
 								+ firstname_value.trim() + "&lastname="
 								+ lastname_value.trim() + "&companyid="
 								+ companyid.trim()+ "&designation="

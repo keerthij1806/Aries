@@ -100,7 +100,7 @@ public class addteam_details extends Activity {
 					member4 = URLEncoder.encode(member4, "UTF-8");
 						
 						
-						String url = "http://172.16.13.166/db/sam.php?team_name="
+						String url = "http://172.16.13.191/db/add_team.php?team_name="
 								+ team_name.trim() + "&team_lead="
 								+ team_lead.trim() + "&member1="
 								+ member1.trim() + "&member2="

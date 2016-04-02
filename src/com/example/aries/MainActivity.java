@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
 						user_value = URLEncoder.encode(user_value, "UTF-8");
 						pass_value = URLEncoder.encode(pass_value, "UTF-8");
 
-						String url = "http://172.16.13.166/db/login.php?username="
+						String url = "http://172.16.13.191/db/login.php?username="
 								+ user_value.trim()
 								+ "&password="
 								+ pass_value.trim();

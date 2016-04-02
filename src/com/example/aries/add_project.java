@@ -105,7 +105,7 @@ public class add_project extends Activity {
 					team_lead = URLEncoder.encode(team_lead, "UTF-8");
 						
 						
-						String url = "http://172.16.13.166/db/add_project.php?project_name="
+						String url = "http://172.16.13.191/db/add_project.php?project_name="
 								+ project_name.trim() + "&project_number="
 								+ project_number.trim() + "&client_name="
 								+ client_name.trim() + "&client_number="

@@ -92,7 +92,7 @@ public class task_update extends Activity {
 					percent = URLEncoder.encode(percent, "UTF-8");
 						
 						
-						String url = "http://172.16.13.166/db/task_update.php?project_name="
+						String url = "http://172.16.13.191/db/task_update.php?project_name="
 								+ project_name.trim() + "&task="
 								+ task.trim() + "&start_date="
 								+ start_date.trim() + "&end_date="

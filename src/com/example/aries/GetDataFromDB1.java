@@ -15,7 +15,7 @@ public class GetDataFromDB1 {
             HttpClient httpclient;
             httpclient = new DefaultHttpClient();
             httppost = new HttpPost(
-                    "http://172.16.13.166/db/GetUsers1.php"); // change this to your URL.....
+                    "http://172.16.13.191/db/GetUsers1.php"); // change this to your URL.....
             ResponseHandler<String> responseHandler = new BasicResponseHandler();
             final String response = httpclient.execute(httppost,
                     responseHandler);
